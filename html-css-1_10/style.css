@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    margin: 100px 50px 50px 50px;
+    font-family: sans-serif;
+}
+
+#area {
+    width: 454px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    font-size: 100px;
+    border: 1px solid white;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+.cell:hover {
+    background-color: #F1F1F1;
+}
+
+.currentPlayer {
+    width: 140px;
+    font-size: 18px;
+    display: flex;
+}
+
+.stat {
+    font-size: 20px;
+}
+
+.stat table {
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
